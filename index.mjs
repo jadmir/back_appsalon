@@ -5,7 +5,7 @@ import servicesRoutes from './routes/servicesRoutes.js'
 const app = express()
 
 //definir una ruta
-app.use('/services', servicesRoutes)
+app.use('/api/services', servicesRoutes)
 
 //definir puert
 const PORT = process.env.PORT || 4000
