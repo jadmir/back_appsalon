@@ -5,12 +5,15 @@
   "description": "Backend para AppSalon en MEVN",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.mjs",
     "dev": "node --watch index.js "
   },
   "author": "jadmir",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.4"
   }
 }
