@@ -7,8 +7,9 @@ router.route('/')
     .post(createService)
     .get(getServices)
 
-router.get('/:id', getServiceById)
-router.put('/:id', updateService)
-router.delete('/:id', deleteService)
+router.route('/:id')
+    .get(getServiceById)
+    .put(updateService)
+    .delete(deleteService)
 
 export default router
